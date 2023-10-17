@@ -1,0 +1,35 @@
+{
+  "name": "server-dash",
+  "version": "1.0.0",
+  "description": "",
+  "license": "BSD-3-Clause",
+  "private": true,
+  "scripts": {
+    "build": "d2-app-scripts build",
+    "start": "d2-app-scripts start",
+    "test": "d2-app-scripts test",
+    "deploy": "d2-app-scripts deploy"
+  },
+  "devDependencies": {
+    "@dhis2/cli-app-scripts": "^10.3.6"
+  },
+  "dependencies": {
+    "@dhis2/app-runtime": "^3.9.0",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@fontsource/roboto": "^4.5.8",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/lab": "^5.0.0-alpha.129",
+    "@mui/material": "^5.11.16",
+    "@reduxjs/toolkit": "^1.9.3",
+    "dotenv": "^16.0.3",
+    "highcharts": "^10.3.3",
+    "highcharts-react-official": "^3.2.0",
+    "react-redux": "^8.0.5",
+    "socket.io-client": "^4.6.2",
+    "uuid": "^9.0.0",
+    "xterm": "^5.1.0",
+    "xterm-addon-fit": "^0.7.0",
+    "xterm-for-react": "^1.0.4"
+  }
+}

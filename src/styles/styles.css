@@ -1,0 +1,23 @@
+@import '@fontsource/roboto/300.css';
+@import '@fontsource/roboto/400.css';
+@import '@fontsource/roboto/500.css';
+@import '@fontsource/roboto/700.css';
+
+@import 'xterm/css/xterm.css';
+
+#terminal-container {
+    display: block;
+    width: calc(100% - 1px);
+    margin: 0 auto;
+    padding: 2px;
+    height: calc(100% - 19px);
+}
+#terminal-container .terminal {
+    background-color: #000000;
+    color: #fafafa;
+    padding: 2px;
+    height: calc(100% - 19px);
+}
+#terminal-container .terminal:focus .terminal-cursor {
+    background-color: #fafafa;
+}
